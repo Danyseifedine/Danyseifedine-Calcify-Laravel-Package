@@ -1,0 +1,24 @@
+{
+    "name": "danyseif/calcify",
+    "type": "package",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Danyseif\\Calcify\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Danyseif\\Calcify\\CalcifyServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "dany seifeddine"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
